@@ -1,1 +1,18 @@
+IPFS - InterPlanetary File System
+https://ipfs.io/
+
+ERC - Ethereum Request for Comments
+
 $ truffle init
+
+$ truffle compile
+
+$ truffle migrate
+
+Account balance:
+After first deployment: 99.9867 ETH
+
+$ truffle test
+
+# for running manual tests of deployed contract in console
+$ truffle console
