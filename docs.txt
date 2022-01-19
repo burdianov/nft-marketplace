@@ -8,6 +8,7 @@ $ truffle init
 $ truffle compile
 
 $ truffle migrate
+$ truffle migrate --reset
 
 Account balance:
 After first deployment: 99.9867 ETH
@@ -16,3 +17,9 @@ $ truffle test
 
 # for running manual tests of deployed contract in console
 $ truffle console
+$ kryptoBird = await KryptoBird.deployed()
+
+# exit truffle console
+$ .exit
+
+
