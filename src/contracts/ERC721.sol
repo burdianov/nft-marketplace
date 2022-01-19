@@ -11,6 +11,17 @@ contract ERC721 {
         uint256 indexed tokenId
     );
 
+    function balanceOf(address _owner) external view returns (uint256) {
+        require(_owner != address(0), "owner query for non-existent token");
+        return _ownedTokensCount[_owner];
+    }
+
+    function ownerOf(uint256 _tokenId) external view returns (address) {
+        address owner = _tokenOwner[_tokenId];
+        require(owner != address(0));
+        return owner;
+    }
+
     function _exists(uint256 tokenId) internal view returns (bool) {
         address owner = _tokenOwner[tokenId];
         return owner != address(0);

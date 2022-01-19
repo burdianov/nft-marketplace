@@ -4,7 +4,6 @@ const KryptoBird = artifacts.require('KryptoBird');
 
 contract('KryptoBird', () => {
   let kryptoBird = null;
-  let error = '';
 
   const nameState = 'KryptoBird';
   const symbolState = 'KBIRDZ';
@@ -21,8 +20,8 @@ contract('KryptoBird', () => {
     assert(symbolState === symbol);
   });
 
-  it('Should mint NFTs and emit Trasfer event', async () => {
-    const response = await kryptoBird.mint('https....1');
+  it('Should mint NFTs and emit Transfer event', async () => {
+    const response = await kryptoBird.mint('https...1');
     const { logs } = response;
 
     assert.ok(Array.isArray(logs));
@@ -33,7 +32,7 @@ contract('KryptoBird', () => {
   });
 
   it('Should not mint NFTs with the same name', async () => {
-    const name = 'https....1';
+    const name = 'https...1';
     let error = '';
 
     try {
