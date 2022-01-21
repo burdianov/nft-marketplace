@@ -1,3 +1,26 @@
+https://app.buildspace.so/
+
+
+Web 3.0 Project Ideas for Portfolio
+
+1. NFT Marketplace
+  https://opensea.io/
+  https://github.com/Uniswap/v3-core
+  https://github.com/Uniswap/v3-periphery
+2. Decentralized Crypto Currency Exchange
+  https://uniswap.org/
+3. Crypto Currency (Blockchain) Trading Bot
+4. Own NFT Project
+  https://nftcalendar.io/
+5. DeFi App
+  https://app.compound.finance/
+6. Crypto Social Network
+
+P.S.  Add new features, reskin.
+      Create portfolio website
+      Deploy projects on testnetwork
+      Add github repos
+
 https://eips.ethereum.org/erc
 ERC - Ethereum Request for Comments
 
